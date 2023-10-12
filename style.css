@@ -1,0 +1,25 @@
+body {
+  accent-color: orange;
+  background: black radial-gradient(orange, black 75%) no-repeat;
+  color: #FFF;
+  font-family: system-ui;
+  margin: 0;
+}
+circle { fill: currentColor; }
+fieldset {
+  background: black;
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1ch;
+  justify-content: space-between;
+  isolation: isolate;
+}
+label {
+  align-items: center;
+  display: flex;
+  font-size: x-small;
+  gap: 1ch;
+}
+line { stroke: currentColor; }
+svg { overflow: visible }
