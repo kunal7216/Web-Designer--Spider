@@ -1,3 +1,4 @@
+
 function webDesigner(pointsRing = 12, dotSize = 2, numRings = 10, spread = 40) {
   const coords = (number) => {
     const frags = 360 / number;
